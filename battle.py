@@ -60,5 +60,3 @@ class Battle:
                 self.hero.health, self.villain.health))
 
 
-A = Battle()
-A.battle()
