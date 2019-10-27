@@ -53,7 +53,7 @@ class Battle:
 
     def winner(self):
         if self.hero.health <= 0 and self.villain.health > 0:
-            print("vilain is the winner, where villain.health is %s, and hero.health is %s" % (
+            print("villain is the winner, where villain.health is %s, and hero.health is %s" % (
                 self.villain.health, self.hero.health))
         if self.hero.health > 0 and self.villain.health <= 0:
             print("hero is the winner, where hero.health is %s, and villain.health is %s" % (
