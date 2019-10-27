@@ -15,8 +15,6 @@ class Hero:
         self.criticStrike = 0.1
         self.extraCriticStrike = 0.01
         self.resilience = 0.2
-        # self.luck = Hero.initialLuck
-        # print('Hero initial Luck is', Hero.initialLuck)
 
     def criticallStrike(self, villain):
         print('This is criticallStrike check')
