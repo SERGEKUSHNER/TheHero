@@ -4,13 +4,6 @@ import random
 
 class Hero:
     attacker = False
-    # initialLuck = random.randrange(10, 30) / 100
-
-    # @staticmethod
-    # def luck():
-    #     randomNumber = random.random()
-    #     print("probRange is %s and randomNumber is %s" % (Hero.initialLuck, randomNumber))
-    #     return randomNumber < Hero.initialLuck
 
     def __init__(self):
         print('Hero constructor initlialized')

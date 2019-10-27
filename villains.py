@@ -13,7 +13,6 @@ class Villain:
         self.luck = (random.randrange(25, 45)) / 100
         self.counterResilience = 0
         self.flag = True
-        # print('Villain initial Luck is', Villain.initialLuck)
 
     def attack(self, hero):
         print('Villain attacks')
